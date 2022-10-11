@@ -1,6 +1,21 @@
 --cmabiosclean
 --v
 
+--Estudiantes
+create table estudiantes(
+ id number not null,
+ nombre varchar2(100),
+ primary key (id)
+);
+
+create sequence estudiantes_seq
+  start with 1
+  increment by 1
+  maxvalue 99999
+  minvalue 1;
+  
+  select  ESTUDIANTES_SEQ.nextval from Estudiantes
+
 --Usuario 
 
 create sequence user_seq
