@@ -1,10 +1,10 @@
-package com.novatec.back.novatecback;
+package com.prueba.test;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class NovatecbackApplicationTests {
+class DemoApplicationTests {
 
 	@Test
 	void contextLoads() {
